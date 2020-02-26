@@ -1,0 +1,113 @@
+{
+  "events": [
+    {
+      "type": "BookingConfirmed",
+      "created_at": "2020-02-20 14:03:32 +0000",
+      "data": {
+        "platform": "Airbnb",
+        "booking_id": "abcdef123",
+        "check_in": "2020-02-23",
+        "check_out": "2020-02-26",
+        "property_id": 1,
+        "price_per_night": 180.00,
+        "currency": "GBP",
+        "guests": {
+          "adults": 2,
+          "children": 3
+        }
+      }
+    },
+    {
+      "type": "BookingConfirmed",
+      "created_at": "2020-02-20 14:08:32 +0000",
+      "data": {
+        "platform": "Airbnb",
+        "booking_id": "abcdef128",
+        "check_in": "2020-02-27",
+        "check_out": "2020-02-29",
+        "property_id": 2,
+        "price_per_night": 160.00,
+        "currency": "GBP",
+        "guests": {
+          "adults": 2,
+          "children": 4
+        }
+      }
+    },
+    {
+      "type": "CalendarBlocked",
+      "created_at": "2020-02-20 16:02:32 +0000",
+      "data": {
+        "property_id": 1,
+        "start_date": "2020-04-01",
+        "end_date": "2020-04-08",
+        "note": "Owner staying at the property"
+      }
+    },
+    {
+      "type": "BookingConfirmed",
+      "created_at": "2020-02-20 17:08:32 +0000",
+      "data": {
+        "platform": "Airbnb",
+        "booking_id": "abcdef130",
+        "check_in": "2020-02-27",
+        "check_out": "2020-02-29",
+        "property_id": 1,
+        "price_per_night": 160.00,
+        "currency": "GBP",
+        "guests": {
+          "adults": 2,
+          "children": 4
+        }
+      }
+    },
+    {
+      "type": "BookingExtended",
+      "created_at": "2020-02-21 15:03:32 +0000",
+      "data": {
+        "booking_id": "abcdef128",
+        "check_out": "2020-03-01",
+        "price_per_night": 190.00
+      }
+    },
+    {
+      "type": "CalendarBlocked",
+      "created_at": "2020-02-22 16:02:32 +0000",
+      "data": {
+        "property_id": 1,
+        "start_date": "2020-02-29",
+        "end_date": "2020-03-08",
+        "note": "Refurbishment works taking place"
+      }
+    },
+    {
+      "type": "CalendarUnblocked",
+      "created_at": "2020-02-22 17:05:32 +0000",
+      "data": {
+        "property_id": 1,
+        "start_date": "2020-03-04",
+        "end_date": "2020-03-08",
+        "note": "Refurbishment works taking place"
+      }
+    },
+    {
+      "type": "BookingExtended",
+      "created_at": "2020-02-23 15:03:32 +0000",
+      "data": {
+        "booking_id": "abcdef123",
+        "check_out": "2020-02-27",
+        "price_per_night": 190.00
+      }
+    },
+    {
+      "type": "CalendarBlocked",
+      "created_at": "2020-02-23 16:05:33 +0000",
+      "data": {
+        "property_id": 2,
+        "start_date": "2020-03-03",
+        "end_date": "2020-03-08",
+        "note": "Refurbishment works taking place"
+      }
+    }
+  ]
+}
