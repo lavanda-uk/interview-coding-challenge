@@ -10,9 +10,10 @@ You're welcome to explore solutions ahead of the interview. During the interview
 
 Please create a tested Ruby program that loads the data included in `data/` to memory and outputs the following:
 
-1. For each property present in `data/properties.json` print:
-   1. Property title
-   2. Current status of the property. Possible statuses are `empty` (no guest staying - last event at the property was a check-out) and `occupied` (there is a booking taking place - has not checked out).
+1. For each property present in `data/properties.json`, print together:
+   1. the property ID
+   2. the property title
+   3. the current status of the property. Possible statuses are `empty` (no guest staying - last event at the property was a check-out) and `occupied` (there is a booking taking place - has not checked out).
 
 We're interested in seeing code design according to SOLID principles.
 
